@@ -1,0 +1,9 @@
+C:\Users\aleti\Desktop\Ale\File\Dev\Cs\Ez M3U Player\Ez M3U Player\bin\Debug\Ez M3U Player.exe.config
+C:\Users\aleti\Desktop\Ale\File\Dev\Cs\Ez M3U Player\Ez M3U Player\bin\Debug\Ez M3U Player.exe
+C:\Users\aleti\Desktop\Ale\File\Dev\Cs\Ez M3U Player\Ez M3U Player\bin\Debug\Ez M3U Player.pdb
+C:\Users\aleti\Desktop\Ale\File\Dev\Cs\Ez M3U Player\Ez M3U Player\obj\Debug\Ez_M3U_Player.Form1.resources
+C:\Users\aleti\Desktop\Ale\File\Dev\Cs\Ez M3U Player\Ez M3U Player\obj\Debug\Ez_M3U_Player.Properties.Resources.resources
+C:\Users\aleti\Desktop\Ale\File\Dev\Cs\Ez M3U Player\Ez M3U Player\obj\Debug\Ez M3U Player.csproj.GenerateResource.cache
+C:\Users\aleti\Desktop\Ale\File\Dev\Cs\Ez M3U Player\Ez M3U Player\obj\Debug\Ez M3U Player.csproj.CoreCompileInputs.cache
+C:\Users\aleti\Desktop\Ale\File\Dev\Cs\Ez M3U Player\Ez M3U Player\obj\Debug\Ez M3U Player.exe
+C:\Users\aleti\Desktop\Ale\File\Dev\Cs\Ez M3U Player\Ez M3U Player\obj\Debug\Ez M3U Player.pdb
