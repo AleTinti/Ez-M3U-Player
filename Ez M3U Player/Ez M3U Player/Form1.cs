@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
@@ -57,7 +57,7 @@ namespace Ez_M3U_Player
                     for (int f = 0; f < m3uPath.Split("\\".ToCharArray()).Length - 1; f++) { csvPath += m3uPath.Split("\\".ToCharArray())[f] + "\\"; }
                     csvPath += m3uPath.Split("\\".ToCharArray())[m3uPath.Split("\\".ToCharArray()).Length - 1].Remove(m3uPath.Split("\\".ToCharArray())[m3uPath.Split("\\".ToCharArray()).Length - 1].Length - 1) + ".temp"; //Sorry :P
 
-                    for (int i = 1; i < m3ULines.Length - 2; i = i + 2) {
+                    for (int i = 1; i < m3ULines.Length - 1; i = i + 2) {
                         string[] csvRow = { m3ULines[i].Split(",".ToCharArray())[1], m3ULines[i + 1] };
                         csvOutput.AppendLine(string.Join(",", csvRow));
                     }
