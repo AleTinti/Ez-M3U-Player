@@ -1,3 +1,17 @@
 # Ez-M3U-Player
-There is no program that opens long M3U lists so I created a very simple one (ugly af) :D
-![img](https://user-images.githubusercontent.com/46496112/232526162-0f43b53a-8e34-4df7-8fa1-6d3842f87963.PNG)
+
+***No existing program can effectively handle long M3U lists, so here's a simple solution (ugly af :D)***
+
+![image](https://github.com/AleTinti/Ez-M3U-Player/assets/46496112/0bf6a22e-9a2e-4b18-9bb5-eb8649bdedd9)
+
+Menu:
+
+ > File
+ <br> - Open -> To open a M3U list
+
+ > Settings
+<br>  - List Limit -> Set the max number of element shown in the list (Usually lag over 5000! Don't load all channel)
+<br>  - VLC Path -> If VLC isn't in default folder you can change from here
+<br>  - Help -> Useless button
+
+ Kiss yall
