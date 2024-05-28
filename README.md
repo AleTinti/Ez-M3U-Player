@@ -14,13 +14,13 @@ Ez M3U Player is a simple and efficient tool for loading, searching, and playing
 
 ### Changelog
 
-#### Version 1.1
+#### (NEW) Version 1.2
 - **New Feature**: Introduced an array-based data structure for handling channel data instead of temporary CSV files. This improves performance and reduces memory usage.
 - **Bug Fix**: Fixed issues related to cross-thread operations in the `updateList` function.
 - **Enhancement**: Improved error handling and messaging for file operations and VLC path issues.
 - **UI Improvement**: Minor tweaks to UI elements for better user experience.
 
-#### Version 1.0
+#### Version 1.1
 - **Initial Release**: Basic functionality for loading M3U files, searching channels, and playing them using VLC.
 
 ### How to Use
