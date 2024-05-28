@@ -49,7 +49,6 @@ namespace Ez_M3U_Player
             this.cname = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.link = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.infoLabel = new System.Windows.Forms.Label();
-            this.firstLabel = new System.Windows.Forms.Label();
             this.versLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -101,11 +100,12 @@ namespace Ez_M3U_Player
             this.listLimitToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.maxItemBox});
             this.listLimitToolStripMenuItem.Name = "listLimitToolStripMenuItem";
-            this.listLimitToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
+            this.listLimitToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.listLimitToolStripMenuItem.Text = "List Limit";
             // 
             // maxItemBox
             // 
+            this.maxItemBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.maxItemBox.Name = "maxItemBox";
             this.maxItemBox.Size = new System.Drawing.Size(100, 23);
             this.maxItemBox.Text = "100";
@@ -115,19 +115,19 @@ namespace Ez_M3U_Player
             this.vLCPathToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.vlcPathBox});
             this.vLCPathToolStripMenuItem.Name = "vLCPathToolStripMenuItem";
-            this.vLCPathToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
+            this.vLCPathToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.vLCPathToolStripMenuItem.Text = "VLC Path";
             // 
             // vlcPathBox
             // 
+            this.vlcPathBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.vlcPathBox.Name = "vlcPathBox";
             this.vlcPathBox.Size = new System.Drawing.Size(100, 23);
-            this.vlcPathBox.Click += new System.EventHandler(this.vlcPathBox_Click);
             // 
             // helpBtn
             // 
             this.helpBtn.Name = "helpBtn";
-            this.helpBtn.Size = new System.Drawing.Size(146, 24);
+            this.helpBtn.Size = new System.Drawing.Size(180, 24);
             this.helpBtn.Text = "Help";
             this.helpBtn.Click += new System.EventHandler(this.helpBtn_Click);
             // 
@@ -199,16 +199,6 @@ namespace Ez_M3U_Player
             this.infoLabel.Size = new System.Drawing.Size(0, 16);
             this.infoLabel.TabIndex = 7;
             // 
-            // firstLabel
-            // 
-            this.firstLabel.AutoSize = true;
-            this.firstLabel.Font = new System.Drawing.Font("Ubuntu", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.firstLabel.Location = new System.Drawing.Point(178, 307);
-            this.firstLabel.Name = "firstLabel";
-            this.firstLabel.Size = new System.Drawing.Size(160, 16);
-            this.firstLabel.TabIndex = 8;
-            this.firstLabel.Text = "Load a list from [ File > Open ]";
-            // 
             // versLabel
             // 
             this.versLabel.AutoSize = true;
@@ -217,7 +207,7 @@ namespace Ez_M3U_Player
             this.versLabel.Name = "versLabel";
             this.versLabel.Size = new System.Drawing.Size(69, 16);
             this.versLabel.TabIndex = 9;
-            this.versLabel.Text = "Version 1.1";
+            this.versLabel.Text = "Version 1.2";
             // 
             // Form1
             // 
@@ -226,7 +216,6 @@ namespace Ez_M3U_Player
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(519, 603);
             this.Controls.Add(this.versLabel);
-            this.Controls.Add(this.firstLabel);
             this.Controls.Add(this.infoLabel);
             this.Controls.Add(this.listView);
             this.Controls.Add(this.btnPlay);
@@ -264,7 +253,6 @@ namespace Ez_M3U_Player
         private System.Windows.Forms.ToolStripMenuItem vLCPathToolStripMenuItem;
         private System.Windows.Forms.ToolStripTextBox vlcPathBox;
         private System.Windows.Forms.ToolStripMenuItem helpBtn;
-        private System.Windows.Forms.Label firstLabel;
         private System.Windows.Forms.ToolStripMenuItem listLimitToolStripMenuItem;
         private System.Windows.Forms.ToolStripTextBox maxItemBox;
         private System.Windows.Forms.Label versLabel;
